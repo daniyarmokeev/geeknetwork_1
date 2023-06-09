@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2023-06-07T19:51:03.281Z",
-    "end": "2023-06-07T19:51:11.340Z",
-    "duration": 8059,
+    "start": "2023-06-08T17:18:11.372Z",
+    "end": "2023-06-08T17:18:16.658Z",
+    "duration": 5286,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "42a411e0-e998-4c9c-ac1b-480bb7c12d29",
+      "uuid": "0db5dd82-d0ba-414f-a9d3-801ccfba5133",
       "title": "",
       "fullFile": "cypress/e2e/automation-store/men.js",
       "file": "cypress/e2e/automation-store/men.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e5a3f5a4-c7e3-45b8-8611-770b4e1c5699",
+          "uuid": "fc35f612-2120-4436-b0ba-0866322aa3fb",
           "title": "home page products",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should verify homepage",
               "fullTitle": "home page products should verify homepage",
               "timedOut": null,
-              "duration": 8037,
+              "duration": 5264,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: expected 'Skincar1' to equal 'Skincare'\n    at Context.eval (cypress/e2e/automation-store/men.js:29:32)",
                 "diff": "- 'Skincar1'\n+ 'Skincare'\n"
               },
-              "uuid": "baa3fb29-9ce2-4f8e-b2af-119deb0275b5",
-              "parentUUID": "e5a3f5a4-c7e3-45b8-8611-770b4e1c5699",
+              "uuid": "4f1a2832-028d-4d38-b028-e77adbd1e229",
+              "parentUUID": "fc35f612-2120-4436-b0ba-0866322aa3fb",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "baa3fb29-9ce2-4f8e-b2af-119deb0275b5"
+            "4f1a2832-028d-4d38-b028-e77adbd1e229"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 8037,
+          "duration": 5264,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
